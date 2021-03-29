@@ -14,4 +14,9 @@ func main() {
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
 
+	// conversion
+	a = int(b)
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
+
 }
